@@ -11,7 +11,7 @@ const {
 
 const contextUrl = constants.CONTEXT_URL;
 
-describe('Example Context', () => {
+describe('AesKeyWrappingKey2019 Context', () => {
   it('constants', async () => {
     expect(appContextMap).to.exist;
     expect(constants).to.exist;
