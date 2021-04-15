@@ -1,10 +1,10 @@
-# Context Template Repository _(context-template)_
+# AesKeyWrappingKey2019 Crypto Suite Context Repository _(aes-key-wrapping-2019-context)_
 
-[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/context-template/Node.js%20CI)](https://github.com/digitalbazaar/context-template/actions?query=workflow%3A%22Node.js+CI%22)
-[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/context-template)](https://codecov.io/gh/digitalbazaar/context-template)
-[![NPM Version](https://img.shields.io/npm/v/context-template.svg)](https://npm.im/context-template)
+[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/aes-key-wrapping-2019-context/Node.js%20CI)](https://github.com/digitalbazaar/aes-key-wrapping-2019-context/actions?query=workflow%3A%22Node.js+CI%22)
+[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/aes-key-wrapping-2019-context)](https://codecov.io/gh/digitalbazaar/aes-key-wrapping-2019-context)
+[![NPM Version](https://img.shields.io/npm/v/aes-key-wrapping-2019-context.svg)](https://npm.im/aes-key-wrapping-2019-context)
 
-> A GitHub template repository for JSON-LD contexts.
+> A JSON-LD context for the AesKeyWrappingKey2019 crypto suite for JavaScript.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@
 
 See also (related specs):
 
-*
+* [WebKMS v0.1](https://w3c-ccg.github.io/webkms/)
 
 ## Install
 
@@ -28,26 +28,26 @@ Requires Node.js 12+
 To install via NPM:
 
 ```
-npm install context-template
+npm install aes-key-wrapping-2019-context
 ```
 
 ## Usage
 
 ```js
-import exampleCtx from 'context-template';
+import aesCtx from 'aes-key-wrapping-2019-context';
 // or
-const exampleCtx = require('context-template');
-const {contexts, constants, appContextMap} = exampleCtx;
+const aesCtx = require('aes-key-wrapping-2019-context');
+const {contexts, constants, appContextMap} = aesCtx;
 
-exampleCtx.CONTEXT_URL
-// 'https://w3id.org/example/v1'
+aesCtx.CONTEXT_URL
+// 'https://w3id.org/security/aes-key-wrapping-2019/v1'
 
 // Codec term map value for CBOR-LD
-exampleCtx.constants.CBORLD_CODEC_VALUE
-// 0x0..
+aesCtx.constants.CBORLD_CODEC_VALUE
+// 0x1C
 
 // get context data for a specific context
-exampleCtx.CONTEXT
+aesCtx.CONTEXT
 // full context object
 ```
 

@@ -7,7 +7,8 @@ module.exports = {
   '@context': {
     id: '@id',
     type: '@type',
-    '@protected': true
+    '@protected': true,
 
+    AesKeyWrappingKey2019: 'https://w3id.org/security#AesKeyWrappingKey2019'
   }
 };
