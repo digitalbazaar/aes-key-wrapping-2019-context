@@ -40,7 +40,7 @@ const aesCtx = require('aes-key-wrapping-2019-context');
 const {contexts, constants, appContextMap} = aesCtx;
 
 aesCtx.CONTEXT_URL
-// 'https://w3id.org/security/suites/aes-key-wrapping-2019/v1'
+// 'https://w3id.org/security/suites/aes-2019/v1'
 
 // Codec term map value for CBOR-LD
 aesCtx.constants.CBORLD_CODEC_VALUE
