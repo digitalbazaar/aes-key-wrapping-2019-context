@@ -1,6 +1,6 @@
 # aes-key-wrapping-2019-context ChangeLog
 
-## 1.0.3 - 2021-04-TBD
+## 1.0.3 - 2021-04-22
 
 ### Fixed
 - **BREAKING**: Update context type definitions.
