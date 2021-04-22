@@ -1,9 +1,14 @@
 # aes-key-wrapping-2019-context ChangeLog
 
+## 1.0.3 - 2021-04-TBD
+
+### Fixed
+- **BREAKING**: Update context type definitions.
+
 ## 1.0.2 - 2021-04-16
 
 ### Changed
-- **BREAKING**: Change the context url to match the registry. 
+- **BREAKING**: Change the context url to match the registry.
 
 ## 1.0.1 - 2021-04-16
 
